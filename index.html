@@ -1,0 +1,143 @@
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .maindiv {
+        height: 100%;
+        width: 100%;
+        background: #00d2ff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #3a7bd5,
+          #00d2ff
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #3a7bd5,
+          #00d2ff
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .main-container {
+        height: 100px;
+        width: 200px;
+        border: 3px solid whitesmoke;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .view-box {
+        height: 30px;
+        width: 100px;
+        border: 2px solid black;
+        border-radius: 3px;
+        overflow: hidden;
+      }
+
+      .ack {
+        border: none;
+        position: absolute;
+        height: 15px;
+        margin-top: -40px;
+        margin-left: -48px;
+        font-family: monospace;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+      }
+
+      .list-holder {
+        /* background-color: rebeccapurple; */
+        position: relative;
+        animation-name: slideup 5s;
+        animation: slideup;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+      }
+
+      @keyframes slideup {
+        0% {
+          bottom: 0px;
+        }
+        10% {
+          bottom: 0px;
+        }
+        20% {
+          bottom: 0px;
+        }
+        30% {
+          bottom: 0px;
+        }
+        40% {
+          bottom: 30px;
+        }
+        50% {
+          bottom: 30px;
+        }
+        60% {
+          bottom: 30px;
+        }
+        70% {
+          bottom: 60px;
+        }
+        80% {
+          bottom: 60px;
+        }
+        90% {
+          bottom: 60px;
+        }
+        100% {
+          bottom: 85px;
+        }
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        /* border: 1px solid red; */
+      }
+      li {
+        height: 30px;
+        width: 100px;
+        color: white;
+        font-family: monospace;
+        line-height: 30px;
+        text-align: center;
+        display: inline-block;
+        /* border: 1px solid green; */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="maindiv">
+      <div class="main-container">
+        <div class="view-box ack">@d.vlpr</div>
+        <div class="view-box">
+          <div class="list-holder">
+            <ul>
+              <li>Hey 👋</li>
+              <li>Ssup? 🕶️</li>
+              <li>Grapes? 🍇</li>
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
