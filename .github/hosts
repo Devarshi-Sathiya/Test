@@ -1,0 +1,10 @@
+main:
+  user: root
+  hostname: dev3.rt.gw
+  deploy_path: /opt/easyengine/sites/brodo.dev3.rt.gw/app/htdocs
+
+develop:
+  user: root
+  hostname: dev3.rt.gw
+  deploy_path: /opt/easyengine/sites/brodo-dev.dev3.rt.gw/app/htdocs
+
